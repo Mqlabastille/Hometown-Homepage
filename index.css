@@ -1,0 +1,134 @@
+body {
+    font-family: "Playfair Display SC", serif;
+    background: #F3DAD8;
+    color: #373F51;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("assets/images/nycnight.jpg");
+    background-size: cover;
+    height: 250px;
+    margin-top: -24px;
+    text-shadow: 0 0 5px white;
+    color: #F3DAD8;
+}
+
+h1 { 
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#hero-subheading {
+    font-size: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin: 0 auto 20px;
+}
+
+#boroughs li{ 
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-right: 6px;
+}
+
+.borough-li { 
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.borough-li:hover {
+    color: white;
+    font-size: 30px;
+}
+
+.borough-link { 
+    color: #F3DAD8;
+}
+
+.ny-imgs {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #373F51;
+}
+
+.ny-imgs:hover {
+    width: 210px;
+    height: 210px;
+    border: 4px solid #373F51;
+    border-radius: 10%;
+}
+
+.activity-title, .transport-title {
+    text-decoration: underline;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.places-flex {
+    display: flex;
+}
+
+.activity-div1 {
+    margin-right: 50px;
+}
+
+.activity-p {
+    max-width: 200px;
+    font-weight: normal;
+    font-size: 16px;
+    text-shadow: 0 0 black;
+}
+
+#footer {
+   height: 200px;
+   background: #373F51;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.transport-div {
+    width: 200px;
+    height: 350px;
+    background: #373F51;
+    padding: 0 20px 0 20px;
+}
+
+#transport-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    color: white;
+}
+
+.transport-link {
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+
+.transport-link:hover {
+    font-size: 17px;
+}
+
+.transport-p {
+    font-size: 18px;
+    text-shadow: 0 0 black;
+    font-weight: normal;
+}
+
+.transport-subheading {
+    text-shadow: 0 0 4px white;
+    font-size: 20px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
